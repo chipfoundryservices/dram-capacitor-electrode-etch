@@ -75,7 +75,7 @@ The 1–2 nm TiOₓNᵧ layer that forms in air (Chapter 2) is the first film th
 
 ```
 Breakthrough step (reference):
-  BCl₃ 60 / Cl₂ 10 / Ar 50 sccm, 5 mTorr, 500 W source, 80 W bias
+  BCl₃ 60 / Cl₂ 10 / Ar 50 sccm, 5 mTorr, 500 W source, 200 W bias
   Ion energy ≈ 110 eV; duration 5 s
   Removes ≈ 1.5 nm TiOₓNᵧ plus ≈ 2 nm TiN
 Without breakthrough (Cl₂/Ar main etch only):
@@ -234,14 +234,14 @@ Bromine atoms are larger, less reactive, and do not etch Si or Ge spontaneously 
 
 ```
 SiGe main etch (reference): HBr 150 / Cl₂ 50 / O₂ 5 sccm, 10 mTorr,
-  600 W source, 80 W bias (E ≈ 110 eV)
+  600 W source, 250 W bias (E ≈ 110 eV)
   SiGe rate                180 nm/min
   Lateral (spontaneous)    ≈ 1.5 nm/min (Cl fraction 25%)
   Selectivity SiGe:TiN     ≈ 8
   Selectivity SiGe:resist  ≈ 3
 
 SiGe overetch (reference): HBr 200 / O₂ 6 / He 100 sccm, 15 mTorr,
-  500 W source, 30 W bias (E ≈ 55 eV)
+  500 W source, 90 W bias (E ≈ 55 eV)
   SiGe rate                60 nm/min
   Lateral                  ≈ 0.5 nm/min
   TiN rate                 ≈ 1.5 nm/min → selectivity ≈ 40
@@ -265,7 +265,7 @@ The small O₂ addition oxidizes SiBrₓ products that redeposit on the sidewall
 ```
 W(s) + 3 F₂ → WF₆(g)            ΔH ≈ −1722 kJ/mol
 W main etch (reference): SF₆ 40 / N₂ 20 / Cl₂ 30 / Ar 50 sccm, 8 mTorr,
-  600 W source, 60 W bias
+  600 W source, 180 W bias (E ≈ 85 eV)
   W rate                   200 nm/min
   SiGe rate                ≈ 300 nm/min (F etches Si and Ge spontaneously)
   Resist rate              ≈ 150 nm/min

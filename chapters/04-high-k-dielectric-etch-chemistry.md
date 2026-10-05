@@ -120,7 +120,7 @@ Adding Cl₂ to BCl₃ raises the Cl atom density and suppresses BₓClᵧ depos
 ```
 Reference HK step:
   BCl₃ 80 / Cl₂ 20 / Ar 50 sccm (Cl₂ fraction of halogen gas 20%)
-  5 mTorr, 800 W source, 100 W bias (E ≈ 150 eV), ESC 60 °C
+  5 mTorr, 800 W source, 450 W bias (E ≈ 150 eV), ESC 60 °C
 ```
 
 ---
@@ -193,7 +193,7 @@ At 150 eV, the resist erodes at about 50 nm/min, so the 93 s HK step costs about
 The chlorides of Zr and Hf become volatile with temperature. Raising the wafer temperature lowers the energy the ions must supply and raises the etch rate:
 
 ```
-ZrO₂ (tetragonal) in BCl₃/Cl₂, 100 W bias (illustrative):
+ZrO₂ (tetragonal) in BCl₃/Cl₂, 450 W bias (illustrative):
   Wafer T (°C)     Rate (nm/min)     E_th (eV)
   ──────────────────────────────────────────────
     60               6                 60
