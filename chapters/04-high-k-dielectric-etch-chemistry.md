@@ -235,7 +235,7 @@ Target: < 0.01 contacts opened per die by residue
   z ≥ 6.4 → OE ≥ 6.4 × 8% = 51% (on the grain distribution alone)
 ```
 
-Wafer-level non-uniformity of the clearing time adds to the grain distribution. With ± 5% (3σ) across the wafer, the total overetch at the slowest site must be about 55%. The reference 50% overetch at the wafer centre covers this only because the slowest sites are within ± 3% of the centre after edge tuning (Chapter 6). This is the tightest margin in the module.
+Wafer-level non-uniformity of the clearing time adds to the grain distribution. With ± 5% (3σ) across the wafer, the total overetch at the slowest site must be about 55%. The reference 50% overetch sits just below this requirement: on the grain distribution alone it gives z = 6.25, P ≈ 2 × 10⁻¹⁰, and about 0.02 residue-affected contacts per die, which meets the target only because not every affected contact is fatal (Chapter 16), and only while edge tuning keeps the slowest sites within ± 3% of the centre (Chapter 6). This is the tightest margin in the module, and it is why production plate etches often run more overetch than this model asks for.
 
 ### 4.7.3 Why Tails, Not Means
 

@@ -99,7 +99,7 @@ Hybrid node separation (illustrative):
   Time                     + 56 s of ALE − 10 s of OE ≈ + 45 s vs the reference
 ```
 
-The ALE route delivers a shallower, loading-free rim recess of 3–5 nm. Its range (± 1 nm) is still set by the incoming thickness spread, which a self-limiting etch does not see; feed-forward of the fill thickness (Chapter 15) is what narrows it further. Two cautions: ALE does not remove the non-Gaussian residue mechanisms of Chapter 10 any better than the continuous etch, and it does not change the cup, which is still the fill dimple. If the flare saddles are deeper than the ALE recess, ALE makes saddle shorts worse, not better.
+The ALE route delivers a shallower, loading-free rim recess of 3–5 nm. Its range (± 1 nm) is still set by the incoming thickness spread, which a self-limiting etch does not see; feed-forward of the fill thickness (Chapter 15) is what narrows it further. Two cautions: ALE does not remove the non-Gaussian residue mechanisms of Chapter 10 any better than the continuous etch, and it does not change the cup, which is still the fill dimple. If the wall saddles are deeper than the ALE recess, ALE makes saddle shorts worse, not better.
 
 ---
 
@@ -166,9 +166,8 @@ Dimple depth t − √(t² − r²)   18 − 8.2 = 9.8 nm        15 − √(225 
                                                        = 15 − 7.5 = 7.5 nm
 Wall between hole tops        13 nm                    11 nm
 Pillar-top fraction           0.464                    π × 13² / 1186 = 0.448
-Flare-saddle risk             saddles where flares     higher: an 11 nm wall
-                              meet (> 38 nm at top)    closes with 3 nm flares
-                                                       on a 28 nm top
+Wall saddle                   ≈ 3 nm (5 nm wall at     deeper: 11 − 2 × 4 = 3 nm
+                              the surface)             wall at the surface
 Minimum rim recess            ≈ 5 nm                   ≈ 6–7 nm
 Plate dielectric area/wafer   1.8 × 10⁴ cm²            ≈ 3.5 × 10⁴ cm²
                                                        (more cells, taller)
@@ -176,7 +175,7 @@ Phase-A clamp voltage         ≈ 1.3 V                  slightly lower (more
                                                        dielectric per antenna)
 ```
 
-The web between pillar tops narrows, flare saddles become more likely, and the minimum recess rises. The plate etch is little changed; its dielectric area grows, which helps the charging clamp.
+The web between pillar tops narrows, the wall saddles deepen, and the minimum recess rises. The plate etch is little changed; its dielectric area grows, which helps the charging clamp.
 
 ---
 

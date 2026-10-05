@@ -32,7 +32,7 @@ The material assumes Books #1–5 (plasma fundamentals), Books #6–10 (dielectr
 
 **Architecture & Films:**
 - The private storage node and the shared cell plate; retention and the leakage budget
-- The TiN fill, its field overburden, the dimple over each hole, and the hole-top flare
+- The TiN fill, its field overburden, the dimple over each hole, and the hole-top flare and wall saddle
 - The ZAZ dielectric, the TiN top electrode, the B-doped SiGe plate fill, and the W strap
 - The plate layout, the array-edge overlap, and the periphery landing
 
@@ -82,7 +82,7 @@ The material assumes Books #1–5 (plasma fundamentals), Books #6–10 (dielectr
 - Where the two electrode etches sit, and their specification sheet
 
 **Chapter 2: The Electrode Stack — Fill, Dielectric, Top Electrode & Plate**
-- The top support, the hole-top flare, and the TiN fill
+- The top support, the hole-top flare and wall saddle, and the TiN fill
 - The dimple over each filled hole; the surface oxide
 - ZAZ, top-electrode TiN, B-doped SiGe, and the W strap
 - The plate mask and the incoming variations
@@ -264,7 +264,7 @@ dram-capacitor-electrode-etch/
 ❌ Vendor-specific recipes or proprietary tool parameters  
 
 ### A Note on Numbers
-Numbers in this book come from established thermochemistry and plasma–surface models, published etch-rate data and literature trends, and representative production practice. Worked examples use **illustrative values** chosen to show the method, and the arithmetic is written out so readers can substitute their own data. A single **reference process** is used across chapters so that examples connect. It inherits the array of Books #29 and #30: a 1b-class 6F² cell (F = 17 nm, cell area 1734 nm²) on a 45 nm hexagonal storage-node pitch, a 1.60 µm mold, and solid TiN pillars 32/28/24 nm wide (top/average/bottom) that give C_s = 8.6 fF. **Module 1** removes an 18 nm pulsed-CVD TiN field film from a 122 nm top SiN support by a Cl₂/BCl₃/Ar ICP etch-back (breakthrough 5 s, main etch to endpoint at 42 nm/min, overetch 10 s at 50 eV), leaving pillar rims recessed 8 nm and SiN at 120 nm. **Module 2** etches a plate of 40 nm W, 150 nm B-doped Si₀.₇Ge₀.₃, 5 nm TiN, and 5.5 nm ZAZ (EOT 0.50 nm) under 500 nm KrF resist, in four steps (SF₆/N₂/Cl₂; HBr/Cl₂/O₂ then HBr/O₂; BCl₃/Cl₂ at 150 eV with 50% overetch), landing on the periphery top SiN with 4 nm loss. The plate covers 55% of the wafer in 32 islands per die. Treat recipe values as starting points for a design of experiments, never as qualified process conditions.
+Numbers in this book come from established thermochemistry and plasma–surface models, published etch-rate data and literature trends, and representative production practice. Worked examples use **illustrative values** chosen to show the method, and the arithmetic is written out so readers can substitute their own data. A single **reference process** is used across chapters so that examples connect. It inherits the array of Books #29 and #30: a 1b-class 6F² cell (F = 17 nm, cell area 1734 nm²) on a 45 nm hexagonal storage-node pitch, a 1.60 µm mold, and solid TiN pillars 32/28/24 nm wide (top/average/bottom) that give C_s = 8.6 fF. **Module 1** removes an 18 nm pulsed-CVD TiN field film from a 122 nm top SiN support by a Cl₂/BCl₃/Ar ICP etch-back (breakthrough 5 s, main etch to endpoint at 42 nm/min, overetch 10 s at 50 eV), leaving pillar rims recessed 7–10 nm (mean ≈ 8.6 nm) and SiN at about 120 nm. **Module 2** etches a plate of 40 nm W, 150 nm B-doped Si₀.₇Ge₀.₃, 5 nm TiN, and 5.5 nm ZAZ (EOT 0.50 nm) under 500 nm KrF resist, in four steps (SF₆/N₂/Cl₂; HBr/Cl₂/O₂ then HBr/O₂; BCl₃/Cl₂ at 150 eV with 50% overetch), landing on the periphery top SiN with 4 nm loss. The plate covers 55% of the wafer in 32 islands per die. Treat recipe values as starting points for a design of experiments, never as qualified process conditions.
 
 ---
 
@@ -274,8 +274,8 @@ Numbers in this book come from established thermochemistry and plasma–surface 
 **Part I (Chapters 1–4):** Complete  
 **Part II (Chapters 5–9):** Complete  
 **Part III (Chapters 10–14):** Complete  
-**Part IV (Chapters 15–16):** In progress  
-**Back Matter (Appendices A–G, Glossary):** Planned  
+**Part IV (Chapters 15–16):** Complete  
+**Back Matter (Appendices A–G, Glossary):** Complete  
 
 ---
 

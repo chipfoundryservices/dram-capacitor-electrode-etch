@@ -4,7 +4,7 @@
 
 Storage-node separation has one job, isolating every pillar, and one by-product, the shape it leaves at the top of every pillar. Both are decided in the last ten seconds of the etch: the transition from field to pillar tops and the overetch that follows. This chapter follows the TiN surface through those seconds. It shows where the field clears last, how the rim of each pillar recesses, how the fill dimple becomes a cup in the pillar top, when that cup reaches into the seam, and which residue mechanisms survive an overetch that removes the average film many times over.
 
-The central conclusion is that the overetch protects against the **Gaussian** part of the clearing problem, the variation of thickness and rate, and that it does so with enormous margin. The shorts that actually occur come from **non-Gaussian** mechanisms, particles, oxide islands, pits, and flare saddles, that more overetch barely helps and that must be controlled at their source.
+The central conclusion is that the overetch protects against the **Gaussian** part of the clearing problem, the variation of thickness and rate, and that it does so with enormous margin. The shorts that actually occur come from **non-Gaussian** mechanisms, particles, oxide islands, pits, and wall saddles, that more overetch barely helps and that must be controlled at their source.
 
 **Learning Objectives:**
 - Describe where and in what order the field TiN clears within the array
@@ -76,7 +76,7 @@ More than a third of the recess comes from loading. A recipe developed on blanke
 
 ```
 Lower limit: 5 nm
-  Flare saddles up to ≈ 6 nm deep (Chapter 2) must be cleared at the rim;
+  Wall saddles up to ≈ 6 nm deep (Chapter 2) must be cleared at the rim;
   the rim of a pillar next to a saddle sees the saddle TiN connect to its
   neighbour unless recessed below the saddle bottom. With 7.3 nm at the
   thinnest-recess site, the margin is ≈ 1.3 nm at the worst saddle.
@@ -189,8 +189,8 @@ Mechanism                        What leaves TiN                     Helped by m
 Particle (Ch. 9)                 masked TiN under the particle       no (masked)
 TiO₂ islands (watermarks,        oxide that BT did not remove;       a little (low-rate
 contaminated spots, long Q-time) TiN beneath etched late              sputter of TiO₂)
-Flare saddles                    TiN in SiN saddles below the       yes, until recess
-                                 nominal surface                     exceeds saddle depth
+Wall saddles                     TiN in SiN saddles below the       yes, until recess
+                                 triangular nodes                   exceeds saddle depth
 Pits, scratches, voids in the    TiN in re-entrant pits; anisotropic partly (isotropic
 SiN top surface                  etch cannot reach under overhangs   component helps)
 BₓClᵧ / BOₓ micromasks           deposits on the field in the BT     no; reduce BCl₃ or
@@ -226,7 +226,7 @@ Source                            Shorts per die (pairs)     Character
 Particles > 50 nm                 0.05                       clusters
 TiO₂ islands                      0.5                        random pairs,
                                                              higher after long Q
-Flare saddles (edge dies)         1.5 (edge dies only)       rings at the wafer
+Wall saddles (edge dies)          1.5 (edge dies only)       rings at the wafer
                                                              edge; rows in die
 Pits / re-entrant SiN             2                          random pairs
 BₓClᵧ micromasks                  0.3                        random pairs
@@ -251,7 +251,7 @@ Seam                           exposed to etch; groove        smeared; slurry ca
 Residue mechanism              particles, TiO₂ islands,       under-polish, scratches
                                pits, saddles, BₓClᵧ           filled with TiN, slurry
                                                               residue, abrasive
-Saddles (flare)                recess must exceed depth       CMP removes saddle TiN
+Wall saddles                   recess must exceed depth       CMP removes saddle TiN
                                                               only if it polishes SiN
                                                               below the saddle
 Surface chemistry              Cl 3–6 at% in TiN surface      oxidized TiN; slurry
@@ -259,7 +259,7 @@ Surface chemistry              Cl 3–6 at% in TiN surface      oxidized TiN; sl
 Mechanical stress on mold      none                           down-force and shear on
                                                               a 1.6 µm mold
 Thickness control of top SiN   excellent (deposition-set)     ± 4 nm (polish-set)
-Cost (Chapter 16)              ≈ $3 per wafer                 ≈ $6–8 per wafer
+Cost (Chapter 16)              ≈ $4 per wafer                 ≈ $8 per wafer
 ```
 
 Neither route is better on every line. Etch-back wins on SiN budget, stress, cost, and thickness control of the top support, which matters when the top support is part of the mechanical design of the forest. CMP wins on planarity and on saddles and pits, which it removes by polishing the SiN itself. Some flows use both: a short CMP touch to planarize, followed by an etch-back to clear without SiN loss.

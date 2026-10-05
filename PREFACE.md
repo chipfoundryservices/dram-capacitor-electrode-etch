@@ -32,7 +32,7 @@ Storage-node separation happens while the pillars are still buried in the mold, 
 
 ### 2. A Blanket Etch Judged by Its Tail
 
-A blanket etch-back with a 50% overetch removes the average film many times over. It fails only at the sites that clear last: a thick spot, a particle, a TiO₂ island, a flare saddle. The specification is set by the one site in a billion, not by the mean.
+A blanket etch-back with a 50% overetch removes the average film many times over. It fails only at the sites that clear last: a thick spot, a particle, a TiO₂ island, a wall saddle. The specification is set by the one site in a billion, not by the mean.
 
 ### 3. Geometry Inherited From the Fill
 

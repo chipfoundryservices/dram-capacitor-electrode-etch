@@ -6,7 +6,7 @@ The two electrode etches act on films that other modules have built, and almost 
 
 **Learning Objectives:**
 - Describe the TiN fill and its field overburden, and compute the depth of the dimple over each filled hole
-- Explain the hole-top flare and how it can join neighbouring pillar tops
+- Explain the hole-top flare, the wall saddle it creates, and how it can join neighbouring pillar tops
 - Describe the ZAZ dielectric, the top-electrode TiN, the SiGe plate fill, and the W strap, and the property of each that matters to the plate etch
 - Compute the sheet resistance of the plate and the contribution of each layer
 - List the incoming variations each etch must absorb
@@ -29,18 +29,22 @@ Top SiN at the start of module 1 (reference):
   Wall between hole tops    45 − 32 = 13 nm (nominal)
 ```
 
-### 2.1.2 The Hole-Top Flare
+### 2.1.2 The Hole-Top Flare and the Wall Saddle
 
-The top of each hole is not a sharp corner. During the hole etch, the faceting of the mask and the nitride at the top of the hole leave a chamfer, or flare, a few nanometres deep. The hole is wider at the very surface than it is 5 nm below it:
+The top of each hole is not a sharp corner. During the hole etch, the faceting of the mask and the nitride at the top of the hole leave a chamfer, or flare, a few nanometres deep. In a hexagonal array the SiN between holes is not uniform: it is widest at the triangular nodes between three holes and narrowest on the line joining two nearest neighbours. On that narrow wall, the flares of the two holes nearly meet, and the faceting rounds the wall top down below the level of the triangular nodes. Every nearest-neighbour wall therefore carries a shallow **saddle**:
 
 ```
-Hole-top flare (illustrative):
-  Flare depth               3 nm (nominal), up to 6 nm at the wafer edge
-  Width at the surface      32 + 2 × 3 = 38 nm (if the flare is at 45°)
-  Wall at the surface       45 − 38 = 7 nm (vs 13 nm 5 nm below)
+Hole-top flare and wall saddle (illustrative):
+  Flare at each hole top               ≈ 3 nm deep, ≈ 4 nm wide
+  Narrowest wall, 5 nm below the top   45 − 32 = 13 nm
+  Narrowest wall at the surface        13 − 2 × 4 = 5 nm
+  Saddle depth below the triangular
+  nodes                                ≈ 3 nm (nominal); up to ≈ 6 nm where
+                                       the top CD is large or the facet is
+                                       deep (typically at the wafer edge)
 ```
 
-Where the top CD is large or the flare is deep, two neighbouring flares meet. The SiN between those two holes then has a saddle below the nominal surface. TiN fills the saddle during the fill. Unless the etch-back recesses the pillars below the bottom of the saddle, the two pillars stay connected by TiN lying in it. This sets the **lower limit of the pillar recess**: the rim recess must exceed the deepest flare saddle on the wafer, about 5 nm in the reference.
+TiN fills the saddle during the fill, and the TiN lying in it sits deeper than the rest of the field. Because the etch-back front moves down uniformly, the saddle TiN clears only when the front has passed below the saddle bottom, and by then the pillar rims on either side have been recessed by the same amount. Unless the rims are recessed below the saddle bottom, the two pillars stay connected by TiN lying in it. This sets the **lower limit of the pillar recess**: the rim recess must exceed the deepest saddle on the wafer, about 5–6 nm in the reference.
 
 ### 2.1.3 The TiN Fill
 
@@ -249,8 +253,8 @@ The plate pattern is coarse, so a KrF resist directly on BARC is enough. The res
 Module 1 (storage-node separation) inherits:
   Field TiN thickness                ± 5% (3σ)    → clearing time ± 5%
   Surface oxide (queue time)         1.0–2.0 nm   → incubation 2–6 s
-  Hole top CD                        ± 1.5 nm     → dimple depth, flare saddles
-  Flare depth                        3–6 nm       → minimum recess
+  Hole top CD                        ± 1.5 nm     → dimple depth, saddle depth
+  Wall-saddle depth                  3–6 nm       → minimum recess
   Top SiN thickness                  ± 3 nm       → carried to Book #30
 
 Module 2 (plate etch) inherits:
@@ -271,7 +275,7 @@ Each item is absorbed by an overetch, by an endpoint, or by feed-forward control
 
 1. **The field TiN is 18 nm, and its surface is not flat.** The fill leaves a dimple about 10 nm deep over every hole, ending in a cusp at the seam.
 
-2. **Flare saddles set the minimum recess.** Where hole-top flares meet, TiN lies in a SiN saddle a few nanometres deep; the pillars must be recessed below it.
+2. **Wall saddles set the minimum recess.** Hole-top flares round the narrow nearest-neighbour walls into saddles 3–6 nm deep; TiN lies in them, and the pillars must be recessed below it.
 
 3. **The surface oxide needs a breakthrough.** A queue-time-dependent TiOₓNᵧ layer of 1–2 nm sets the incubation.
 
@@ -285,7 +289,7 @@ Each item is absorbed by an overetch, by an endpoint, or by feed-forward control
 
 1. Compute the dimple depth over a hole of 35 nm top CD with an 18 nm fill. What fill thickness gives the reference dimple of 9.8 nm for this CD?
 
-2. Two neighbouring holes have top CDs of 34 nm and 35 nm and 45° flares 4 nm deep. Do their flares meet? If so, how deep is the saddle below the SiN surface?
+2. Two neighbouring holes have top CDs of 34 nm and 35 nm, and each has a flare 4 nm wide. What is the narrowest wall width at the surface? If the saddle depth grows as that width shrinks, as in Section 2.1.2, why would you expect the deepest saddles at the wafer edge?
 
 3. Recompute the plate sheet resistance if the W is reduced to 30 nm and its resistivity rises to 18 µΩ·cm. What fraction of the current now flows in the SiGe?
 
